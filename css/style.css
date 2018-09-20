@@ -1,0 +1,184 @@
+input[name=edit] {
+  width: 100%;
+}
+
+.checkEl {
+  position:absolute;
+  left: 10px;
+  float: left;
+  top:15px;
+  /* bottom: 45%; */
+}
+
+.btn-success.focus, .btn-success:focus {
+    box-shadow: none;
+}
+
+.btn.focus, .btn:focus {
+  box-shadow:none; 2px 2px 2px #f17581;
+}
+
+.currentmode, .currentmode.focus, .currentmode:focus {
+  box-shadow: 2px 2px 2px #f17581;
+}
+
+#markelements{
+  text-shadow: 1px 1px 1px black, 0 0 1em #6c757d;
+  color: #fff;
+  margin-left: 5px;
+}
+#modeshow {
+  text-shadow: 1px 1px 1px black, 0 0 1em #6c757d;
+  color: #fff;
+  margin-top: 3px;
+}
+
+.btn-danger {
+  background-color: #f17581;
+}
+
+.btn-success {
+  background-color: #97ffae;
+  color: black;
+}
+
+.btn-warning {
+  background-color: #fbeab7;
+}
+
+.list-group-item {
+  padding-left: 30px;
+  word-wrap: break-word;
+  padding-right: 50px;
+  background-color: #fbeab7;
+}
+
+h1 {
+  text-shadow: 1px 1px 2px black, 0 0 1em #6c757d;
+  text-align: center;
+  color: #fff;
+}
+
+.pegControl{
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+#counterbox {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.all {
+  background-color: #212529;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.act {
+  background-color: #dd3644;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.compl {
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.allMark{
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+#count {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.checked:hover{
+  text-decoration: line-through;
+}
+
+.checked {
+  text-decoration: line-through;
+  background-color: #97ffae;
+}
+
+#currentPageVis {
+  background-color: #212529;
+}
+
+#todoapp {
+  box-shadow: 5px 5px 2px #6c757d;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 5px;
+  background-color: #e9ecef;
+  margin-top: 20px;
+  min-height: 572px;
+}
+
+li {
+width: 100%;
+}
+
+.closeBut {
+  position: absolute;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  top:5px;
+}
+
+.list {
+  min-height: 245px;
+  padding-left: 0;
+}
+
+.teil {
+  margin-bottom: 10px;
+  min-height: 245px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.buttonsDiv {
+  display:  inline-block;
+}
+
+div.controls {
+  height: 65px;
+  margin-left: 5px;
+  width: 100%;
+  box-sizing:  border-box;
+  display:  inline-block;
+}
+
+.inputAdd {
+  margin-right: 0px;
+  padding-right: 10px;
+  text-shadow: 0 0 black;
+  display:  inline-block;
+  width: 50%;
+
+}
+
+.controlHideAndPag {
+  display:-webkit-inline-box;
+}
+
+input[type=checkbox] {
+  height: 15px;
+  width: 15px;
+}
